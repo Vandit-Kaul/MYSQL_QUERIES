@@ -1,0 +1,1 @@
+SELECT COUNT(patient_id) AS total_admissions FROM admissions;
