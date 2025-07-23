@@ -1,0 +1,1 @@
+SELECT p.first_name,p.last_name,pro.province_name FROM patients p JOIN province_names pro ON p.province_id=pro.province_id;
